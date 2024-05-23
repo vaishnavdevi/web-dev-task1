@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+}
+
+.container {
+    max-width: 900px;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px black;
+	padding: 100px 80px 50px 80px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+	width: 260px;
+	border-radius: 10px;
+	border: 2px solid purple;
+    background-color: #9B59B6;
+    color: #FFFFFF;
+	padding: 10px;
+	margin: 10px 310px;
+	font-size: 25px;
+}
+
+header p{
+	margin: 50px 100px ;
+	line-height: 30px;
+	font-family: Verdana;
+}
+	
+
+.team-section {
+    margin-top: 40px;
+	text-align: center;
+}
+
+.team-members1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member1 {
+	margin-top: 20px;
+    text-align: center;
+	padding: 5px 170px 5px ;
+}
+
+.member1 img {
+    border-radius: 50%;
+    object-fit: cover;
+	width: 130px;
+	height: 130px;
+}
+.name{
+	font-style: italic;
+	color: #9B59B6;
+	width: 150px;
+}
+.member2 {
+	margin-top: 20px;
+    text-align: center;
+	padding: 5px 160px 5px 20px;
+}
+
+.member2 img {
+    border-radius: 50%;
+    object-fit: cover;
+	width: 130px;
+	height: 130px;
+}
+
+.member3 {
+    text-align: center;
+    margin:30px 55px 10px 55px;	
+	
+}
+
+.member3 img {
+    border-radius: 50%;
+    object-fit: cover;
+	width: 130px;
+	height: 130px;
+}
+
+.team-group {
+    margin-bottom: 40px;
+}
+
+.team-group h3 {
+    background-color: #9B59B6;
+    color: #FFFFFF;
+    padding: 9px;
+    margin: 20px 290px;
+	border-radius: 10px;
+	width: 300px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member {
+    text-align: center;
+    margin: 30px 36px 10px 36px;	
+} 
+
+.member img {
+    border-radius: 50%;
+    object-fit: cover;
+	width: 130px;
+	height: 130px;
+}
+
+.member p:first-of-type {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+}
